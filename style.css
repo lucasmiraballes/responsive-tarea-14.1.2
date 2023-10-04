@@ -1,9 +1,3 @@
-body {
-  background: radial-gradient(circle, #FFFF00, grey);
-  background-size: cover;
-  background-position: center center;
-}
-
 .navbar-nav .nav-item:not(.d-lg-flex) {
   margin-left: 0px;
 }
