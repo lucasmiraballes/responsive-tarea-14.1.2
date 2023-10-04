@@ -1,0 +1,64 @@
+body {
+  background: radial-gradient(circle, #FFFF00, grey);
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-nav .nav-item:not(.d-lg-flex) {
+  margin-left: 0px;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-item:not(.d-lg-flex) {
+    margin-left: 100px;
+  }
+}
+
+#opciones {
+  padding-left: 10%;
+}
+
+#text-carousel .carousel-item p {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.opciones {
+  float: left;
+}
+
+.opciones a {
+  display: block;
+  padding: 10px;
+  border: 1px solid #cecece;
+  color: inherit;
+  border-radius: 0.3em;
+}
+
+.info-column {
+  text-align: justify;
+}
+
+.lg-options {
+  display: none;
+  margin: none;
+}
+
+@media (min-width: 992px) {
+  .lg-options {
+    display: block;
+  }
+
+  .opciones a {
+    padding: 10px;
+    border: 1px solid #cecece;
+    color: inherit;
+    border-radius: 0.3em;
+    width: 230%; /* Esto es lo unico que no estaria completamente bien del todo, no se como fixearlo totalmente pero cumple sin problemas */
+  }
+}
+
+.non-color {
+  color: inherit;
+}
